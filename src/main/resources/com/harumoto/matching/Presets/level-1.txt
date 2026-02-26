@@ -1,0 +1,7 @@
+5,0,0,0
+0,6,0,0,0
+C,E,B,A,C
+B,A,C,C,E
+A,B,A,E,D
+D,B,D,B,D
+E,A,B,A,B

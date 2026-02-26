@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url(Fonts/minecraft_font.ttf);
+}
+
+* {
+  -fx-font-family: "Minecraft";
+}
+
+.start-game {
+  -fx-min-width: 200px;
+  -fx-min-height: 50px;
+  -fx-text-fill: white;
+  -fx-font-size: 16px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+  -fx-background-image: url(Images/stone.png);
+  -fx-background-repeat: repeat;
+  -fx-background-size: 250%;
+
+}
+
+.start-game:hover {
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 1), 10, 0, 0, 0);
+  /* -fx-background-color: rgba(255, 255, 255, 0.7); */
+}
+
+.title-text {
+  -fx-background-image: url(Images/start-title.png);
+  -fx-background-position: center;
+  -fx-background-size: contain;
+  -fx-background-repeat: no-repeat;
+}
+
+.title-text-text {
+  -fx-effect: dropshadow(one-pass-box, black, 8, 0, 2, 0);
+}
+
+.start-screen {
+  -fx-background-image: url(Images/background.png);
+  -fx-background-position: center;
+  -fx-background-size: cover;
+}

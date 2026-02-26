@@ -1,0 +1,35 @@
+.menu-screen {
+  -fx-background-image: url(Images/background.png);
+  -fx-background-position: center;
+  -fx-background-size: cover;
+}
+
+.level-button {
+  -fx-background-image: url(Images/sign.png);
+  -fx-background-position: center;
+  -fx-background-size: cover;
+  -fx-min-width: 50px;
+  -fx-max-height: 50px;
+  -fx-min-height: 50px;
+  -fx-max-height: 50px;
+  -fx-opacity: 0.7;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+  /* -fx-effect: dropshadow(one-pass-box, black, 8, 0, 2, 0); */
+}
+
+.level-button:hover {
+  -fx-min-width: 60px;
+  -fx-max-height: 60px;
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+}
+
+.passed {
+  -fx-opacity: 1;
+}
+
+.menu-text {
+  -fx-translate-y: -7px;
+  -fx-effect: dropshadow(one-pass-box, black, 8, 0, 2, 0);
+  -fx-font-size: 20px;
+}

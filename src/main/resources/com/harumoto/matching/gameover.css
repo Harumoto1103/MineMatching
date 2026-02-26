@@ -1,0 +1,98 @@
+.end-screen {
+  -fx-background-image: url(Images/background.png);
+  -fx-background-position: center;
+  -fx-background-size: cover;
+}
+
+@font-face {
+  font-family: "Minecraft";
+  src: url(Fonts/minecraft_font.ttf);
+}
+
+* {
+  -fx-font-family: "Minecraft";
+}
+
+.gameover-text {
+  /* -fx-background-image: url(Images/sign-gradient.png); */
+}
+
+.gameover-inner-text {
+  -fx-effect: dropshadow(one-pass-box, black, 8, 0, 2, 0);
+}
+
+.star-container {
+  -fx-background-image: url(Images/frame.png);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+}
+
+.stars {
+  -fx-background-image: url(Images/star.gif);
+  -fx-background-position: center;
+  -fx-background-size: contain;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 70px;
+  -fx-min-width: 70px;
+}
+
+.star-A {
+  -fx-background-image: url(Images/star.gif);
+  -fx-background-position: center;
+  -fx-background-size: contain;
+  -fx-min-height: 50px;
+  -fx-min-width: 50px;
+}
+
+.star-B {
+  -fx-background-image: url(Images/star.gif);
+  -fx-background-position: center;
+  -fx-background-size: contain;
+  -fx-min-height: 70px;
+  -fx-min-width: 70px;
+}
+
+.star-C {
+  -fx-background-image: url(Images/star.gif);
+  -fx-background-position: center;
+  -fx-background-size: contain;
+  -fx-min-height: 100px;
+  -fx-min-width: 100px;
+}
+
+.restart-button,
+.quit-button {
+  -fx-min-width: 200px;
+  -fx-min-height: 50px;
+  -fx-text-fill: white;
+  -fx-font-size: 16px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+  -fx-background-image: url(Images/stone.png);
+  -fx-background-repeat: repeat;
+  -fx-background-size: 250%;
+}
+
+.detail-text .content,
+.detail-text {
+  -fx-focus-color: transparent;
+  -fx-border-style: none;
+  -fx-background-radius: 0px;
+  -fx-border-radius: 0px;
+  /* -fx-background-color: rgba(255, 255, 0, 0.1); */
+  -fx-text-fill: white;
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.7), 8, 0, 2, 0);
+}
+
+.detail-text .scroll-pane {
+  -fx-background-color: transparent;
+}
+
+.detail-text .scroll-pane .viewport {
+  -fx-background-color: transparent;
+}
+
+.detail-text .scroll-pane .content {
+  -fx-background-color: transparent;
+}

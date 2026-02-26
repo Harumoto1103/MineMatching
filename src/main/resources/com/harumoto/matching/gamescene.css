@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url(Fonts/minecraft_font.ttf);
+}
+
+.piece {
+  -fx-view-order: 0;
+  -fx-min-width: 40px;
+  -fx-max-width: 40px;
+  -fx-min-height: 40px;
+  -fx-max-height: 40px;
+  /* -fx-background-color: red; */
+  -fx-background-position: center;
+  -fx-background-size: cover;
+  -fx-background-radius: 15px;
+  -fx-content-display: none;
+  -fx-border-color: rgba(255, 255, 255, 0);
+  -fx-background-color: rgba(94, 159, 233, 0);
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.piece:hover {
+  -fx-min-width: 50px;
+  -fx-max-width: 50px;
+  -fx-min-height: 50px;
+  -fx-max-height: 50px;
+}
+
+.piece-wall {
+  -fx-background-image: url(Images/stone.png);
+  -fx-background-size: cover;
+}
+
+.piece-A {
+  -fx-background-image: url(Images/A.png);
+}
+
+.piece-B {
+  -fx-background-image: url(Images/B.png);
+}
+
+.piece-C {
+  -fx-background-image: url(Images/C.png);
+}
+
+.piece-D {
+  -fx-background-image: url(Images/D.png);
+}
+
+.piece-E {
+  -fx-background-image: url(Images/E.png);
+}
+
+.piece-a {
+  -fx-background-image: url(Images/a.gif);
+}
+
+.piece-b {
+  -fx-background-image: url(Images/b.gif);
+}
+
+.piece-c {
+  -fx-background-image: url(Images/c.gif);
+}
+
+.piece-d {
+  -fx-background-image: url(Images/d.gif);
+}
+
+.piece-e {
+  -fx-background-image: url(Images/e.gif);
+}
+
+.piece-sward {
+  -fx-background-image: url(Images/sward.png);
+}
+
+.piece-TNT {
+  -fx-background-image: url(Images/TNT.png);
+}
+
+.frame {
+  -fx-background-image: url(Images/frame.png);
+  -fx-background-position: center;
+  -fx-background-size: cover;
+  -fx-min-width: 30px;
+  -fx-max-width: 45px;
+  -fx-min-height: 30px;
+  -fx-max-height: 45px;
+  -fx-alignment: center;
+  -fx-valignment: center;
+  -fx-halignment: center;
+  -fx-background-radius: 30px;
+  -fx-border-radius: 30px;
+}
+
+.start-screen {
+  -fx-background-image: url(Images/background.png);
+  -fx-background-position: center;
+  -fx-background-size: cover;
+}
+
+.upper-bar {
+  -fx-background-image: url(Images/grass-texture-reversed);
+  -fx-background-repeat: repeat;
+  -fx-background-size: contain;
+}
+
+* {
+  -fx-font-family: "Minecraft";
+}
+
+.level-text {
+  -fx-translate-y: -7px;
+  -fx-effect: dropshadow(one-pass-box, black, 8, 0, 2, 0);
+  -fx-font-size: 20px;
+}
+
+.condition {
+  -fx-background-size: 80%;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-text-fill: rgba(255, 255, 255, 1);
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.condition-text,
+.potion-text,
+.hammer-text {
+  -fx-effect: dropshadow(one-pass-box, black, 8, 0, 2, 0);
+  /* -fx-padding: 10px 10px; */
+  /* -fx-background-color: rgba(0, 0, 0, 0.5); */
+  /* -fx-background-radius: 15px; */
+}
+
+.condition-A {
+  -fx-background-image: url(Images/A.png);
+}
+
+.condition-B {
+  -fx-background-image: url(Images/B.png);
+}
+
+.condition-C {
+  -fx-background-image: url(Images/C.png);
+}
+
+.condition-D {
+  -fx-background-image: url(Images/D.png);
+}
+
+.condition-E {
+  -fx-background-image: url(Images/E.png);
+}
+
+.condition-overall {
+  -fx-background-image: url(Images/overall.png);
+}
+
+.condition-times {
+  -fx-background-image: url(Images/times.gif);
+}
+
+.condition-pane {
+  /* -fx-background-color: ; */
+  -fx-background-image: url(Images/sign-gradient.png);
+  -fx-background-repeat: repeat;
+  -fx-background-size: contain;
+}
+
+.totem {
+  -fx-background-image: url(Images/totem.png);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 50px;
+  -fx-max-height: 50px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.totem:hover {
+  -fx-background-image: url(Images/totem.png);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.menu {
+  -fx-background-image: url(Images/chest.png);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 50px;
+  -fx-max-height: 50px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.menu:hover {
+  -fx-background-image: url(Images/chest.png);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.hammer {
+  -fx-background-image: url(Images/hammer.png);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 50px;
+  -fx-max-height: 50px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.hammer:hover {
+  -fx-background-image: url(Images/hammer.png);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.undo {
+  -fx-background-image: url(Images/potion.png);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 50px;
+  -fx-max-height: 50px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.undo:hover {
+  -fx-background-image: url(Images/potion.png);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.restart-button {
+  -fx-background-image: url(Images/restart.gif);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 50px;
+  -fx-max-height: 50px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.restart-button:hover {
+  -fx-background-image: url(Images/restart.gif);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.giveup-button {
+  -fx-background-image: url(Images/giveup.gif);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 50px;
+  -fx-max-height: 50px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.giveup-button:hover {
+  -fx-background-image: url(Images/giveup.gif);
+  -fx-background-size: contain;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-text-fill: rgba(0, 0, 0, 0);
+  -fx-background-color: rgba(0, 0, 0, 0);
+  -fx-min-height: 60px;
+  -fx-max-height: 60px;
+  -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
